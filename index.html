@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Am I A1 Ready? | German Readiness Check</title>
+<style>
+:root{--green:#174b38;--green2:#23664d;--mint:#eaf3ed;--ink:#1d2923;--muted:#68756d;--line:#e3e9e4;--paper:#fbfcfa;--orange:#e9a45b}
+*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif}
+header{height:68px;border-bottom:1px solid var(--line);display:flex;align-items:center;justify-content:space-between;padding:0 max(22px,calc((100% - 1060px)/2));background:#fff}
+.brand{display:flex;align-items:center;gap:10px;font-weight:750;letter-spacing:-.3px}.brandmark{width:34px;height:34px;border-radius:11px;background:var(--green);color:white;display:grid;place-items:center;font-weight:800}.tag{font-size:12px;color:var(--green);background:var(--mint);padding:7px 11px;border-radius:20px;font-weight:650}
+main{max-width:900px;margin:48px auto;padding:0 22px}.eyebrow{font-size:12px;text-transform:uppercase;letter-spacing:1.5px;color:var(--green2);font-weight:750}.hero{display:grid;grid-template-columns:1.2fr .8fr;gap:30px;align-items:center}.hero h1{font-size:clamp(36px,5vw,54px);line-height:1.04;letter-spacing:-2px;margin:14px 0}.hero p{color:var(--muted);font-size:16px;line-height:1.7;max-width:510px}.hero-art{background:var(--mint);border-radius:24px;padding:28px;min-height:240px;display:flex;flex-direction:column;justify-content:space-between}.art-top{display:flex;justify-content:space-between;color:var(--green);font-size:13px;font-weight:700}.big-a{font-size:76px;font-weight:850;color:var(--green);letter-spacing:-5px}.art-bottom{color:#476858;font-size:13px}.stats{display:flex;gap:22px;margin:25px 0;color:var(--muted);font-size:13px}.stats span strong{color:var(--ink)}.btn{border:0;border-radius:12px;background:var(--green);color:white;padding:14px 21px;font-size:14px;font-weight:700;cursor:pointer;transition:.15s}.btn:hover{background:var(--green2);transform:translateY(-1px)}.btn.secondary{background:white;color:var(--green);border:1px solid var(--line)}.center{text-align:center}.panel{background:white;border:1px solid var(--line);border-radius:20px;padding:28px;box-shadow:0 12px 35px #183d2610}.hidden{display:none!important}.quiztop{display:flex;justify-content:space-between;align-items:center;color:var(--muted);font-size:13px;margin-bottom:14px}.track{height:7px;background:#edf1ed;border-radius:10px;overflow:hidden;margin-bottom:30px}.fill{height:100%;background:var(--green2);width:0%;transition:width .2s}.skillpill{font-size:11px;text-transform:uppercase;letter-spacing:1px;color:var(--green);font-weight:750;background:var(--mint);padding:7px 10px;border-radius:20px;display:inline-block}.question{font-size:25px;line-height:1.35;letter-spacing:-.5px;margin:17px 0 8px}.hint{color:var(--muted);font-size:14px;line-height:1.6;margin:0 0 22px}.options{display:grid;gap:11px}.option{width:100%;text-align:left;border:1px solid var(--line);background:#fff;border-radius:12px;padding:15px 16px;font-size:15px;cursor:pointer;color:var(--ink)}.option:hover{border-color:#8eac99;background:#fbfefb}.option.selected{border:2px solid var(--green);background:var(--mint);padding:14px 15px}.quizactions{display:flex;justify-content:space-between;align-items:center;margin-top:26px}.small{font-size:12px;color:var(--muted)}.resulthead{display:flex;justify-content:space-between;gap:20px;align-items:center}.scorecircle{width:116px;height:116px;border-radius:50%;border:9px solid var(--mint);display:grid;place-items:center;flex-shrink:0;color:var(--green);font-size:29px;font-weight:800}.resulthead h2{font-size:30px;letter-spacing:-1px;margin:8px 0}.resulthead p{color:var(--muted);line-height:1.6;margin:0}.sectiontitle{font-size:17px;margin:30px 0 15px}.skillrow{display:grid;grid-template-columns:105px 1fr 45px;gap:12px;align-items:center;margin:15px 0;font-size:13px}.skillbar{height:9px;background:#edf1ed;border-radius:20px;overflow:hidden}.skillbar i{display:block;height:100%;background:var(--green2);border-radius:20px}.recommend{background:#f5f8f5;border:1px solid var(--line);padding:15px;border-radius:13px;margin:10px 0;font-size:14px;line-height:1.55}.recommend strong{display:block;margin-bottom:4px}.disclaimer{font-size:12px;color:var(--muted);line-height:1.6;margin-top:22px}.footer{text-align:center;color:#87928b;font-size:12px;margin:35px 0 20px}
+@media(max-width:680px){main{margin:28px auto}.hero{grid-template-columns:1fr}.hero-art{min-height:180px}.big-a{font-size:60px}.panel{padding:20px}.resulthead{align-items:flex-start}.scorecircle{width:90px;height:90px;font-size:23px;border-width:7px}.question{font-size:22px}.stats{gap:14px;flex-wrap:wrap}}
+</style>
+</head>
+<body>
+<header><div class="brand"><div class="brandmark">G</div> German Ready Check</div><div class="tag">A1 LEVEL</div></header>
+<main>
+<section id="welcome">
+ <div class="hero">
+  <div><div class="eyebrow">Your next step starts here</div><h1>Am I ready for my <span style="color:var(--green)">German A1</span> exam?</h1>
+  <p>A quick self-check to understand where you stand before booking your Goethe or ÖSD A1 examination. Find your strengths and the areas worth practising next.</p>
+  <div class="stats"><span><strong>12</strong> questions</span><span><strong>3</strong> skill areas</span><span><strong>5–7</strong> minutes</span></div>
+  <button class="btn" id="startBtn">Start my readiness check&nbsp; →</button></div>
+  <div class="hero-art"><div class="art-top"><span>DEUTSCH A1</span><span>01 / 03</span></div><div class="big-a">Hallo!</div><div class="art-bottom">Small steps. Clear progress. More confidence.</div></div>
+ </div>
+ <p class="disclaimer">This short assessment is a practice tool, not an official Goethe or ÖSD examination or a guarantee of passing.</p>
+</section>
+<section id="quiz" class="hidden">
+ <div class="panel">
+  <div class="quiztop"><span id="qCount">QUESTION 1 OF 12</span><span id="qSkill">VOCABULARY</span></div>
+  <div class="track"><div class="fill" id="progress"></div></div>
+  <div><span class="skillpill" id="skillPill">Vocabulary</span><h2 class="question" id="questionText"></h2><p class="hint" id="questionHint"></p></div>
+  <div class="options" id="options"></div>
+  <div class="quizactions"><button class="btn secondary" id="backBtn">← Back</button><span class="small">Choose one answer</span><button class="btn" id="nextBtn" disabled>Next →</button></div>
+ </div>
+</section>
+<section id="results" class="hidden">
+ <div class="panel">
+  <div class="eyebrow">Your readiness snapshot</div>
+  <div class="resulthead"><div><h2 id="resultTitle">You're almost there.</h2><p id="resultCopy"></p></div><div class="scorecircle" id="overallScore">0%</div></div>
+  <h3 class="sectiontitle">Your performance by skill</h3><div id="skillScores"></div>
+  <h3 class="sectiontitle">What to practise next</h3><div id="recommendations"></div>
+  <p class="disclaimer">This score reflects your answers to these 12 practice questions only. It does not assess listening or speaking and should not be treated as an official prediction of your exam result. Consider taking a full mock test before booking.</p>
+  <div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:24px"><button class="btn" id="retryBtn">Try again</button><button class="btn secondary" id="printBtn">Save results / Print</button></div>
+ </div>
+</section>
+<div class="footer">A simple readiness check for German A1 learners</div>
+</main>
+<script>
+const questions = [
+ {skill:"Vocabulary",q:"What does “Guten Morgen” mean?",hint:"Choose the correct English meaning.",opts:["Good evening","Good morning","Good night","Goodbye"],a:1},
+ {skill:"Vocabulary",q:"Which word means “the book” in German?",hint:"Remember the article as well as the noun.",opts:["Der Buch","Die Buch","Das Buch","Ein Bücher"],a:2},
+ {skill:"Vocabulary",q:"You are at a bakery. What does “Ich möchte ein Brot” mean?",hint:"Think about what the speaker wants to buy.",opts:["I would like a bread","I have a book","I am going home","I need some water"],a:0},
+ {skill:"Vocabulary",q:"Which is the correct German word for “Monday”?",hint:"Choose the day of the week.",opts:["Sonntag","Mittwoch","Freitag","Montag"],a:3},
+ {skill:"Grammar",q:"Choose the correct sentence: “I come from India.”",hint:"Pay attention to the verb form for “ich”.",opts:["Ich kommen aus Indien.","Ich komme aus Indien.","Ich kommt aus Indien.","Ich kommst aus Indien."],a:1},
+ {skill:"Grammar",q:"Complete the sentence: “Du _____ sehr nett.”",hint:"Choose the correct form of “sein” (to be).",opts:["bin","ist","bist","sind"],a:2},
+ {skill:"Grammar",q:"Which article correctly completes this sentence? “_____ Frau ist Lehrerin.”",hint:"“Frau” is a feminine noun.",opts:["Der","Die","Das","Den"],a:1},
+ {skill:"Grammar",q:"Choose the correct word order: “Today I learn German.”",hint:"In a simple German main clause, the conjugated verb is usually in position two.",opts:["Heute ich lerne Deutsch.","Heute lerne ich Deutsch.","Ich heute Deutsch lerne.","Lerne heute ich Deutsch."],a:1},
+ {skill:"Reading",q:"Read: “Maria ist 22 Jahre alt. Sie wohnt in Berlin.” Where does Maria live?",hint:"Read the short passage and answer the question.",opts:["Munich","Hamburg","Berlin","Vienna"],a:2},
+ {skill:"Reading",q:"Read: “Der Zug fährt um 8:30 Uhr ab.” When does the train leave?",hint:"Look for the time in the sentence.",opts:["At 8:00","At 8:30","At 9:30","At 10:30"],a:1},
+ {skill:"Reading",q:"Read: “Am Samstag spiele ich Fußball mit meinen Freunden.” What does the person do on Saturday?",hint:"Identify the activity.",opts:["Plays football","Studies German","Goes shopping","Works"],a:0},
+ {skill:"Reading",q:"Read: “Das Café ist von Montag bis Freitag geöffnet. Am Sonntag ist es geschlossen.” Is the café open on Sunday?",hint:"Look for the word “geschlossen”.",opts:["Yes, all day","Only in the morning","No, it is closed","The text doesn't say"],a:2}
+];
+const tips={
+ Vocabulary:["Revise everyday words for food, family, time and daily routines.","Practise noun genders (der, die, das) with new vocabulary.","Use short flashcard sessions and simple example sentences."],
+ Grammar:["Practise present-tense verb conjugations, especially sein, haben and regular verbs.","Review der/die/das and how articles match nouns.","Practise simple sentence structure and verb position with short daily sentences."],
+ Reading:["Read short A1 messages, notices and everyday conversations.","Practise finding key details such as names, places, dates and times.","Read a short German paragraph daily and answer simple who/what/when/where questions."]
+};
+let current=0,answers=Array(questions.length).fill(null);
+const $=id=>document.getElementById(id);
+function show(section){["welcome","quiz","results"].forEach(id=>$(id).classList.toggle("hidden",id!==section));}
+function renderQuestion(){
+ const q=questions[current];$("qCount").textContent=`QUESTION ${current+1} OF ${questions.length}`;$("qSkill").textContent=q.skill.toUpperCase();$("skillPill").textContent=q.skill;$("questionText").textContent=q.q;$("questionHint").textContent=q.hint;$("progress").style.width=`${(current/questions.length)*100}%`;
+ $("options").innerHTML="";q.opts.forEach((opt,i)=>{const b=document.createElement("button");b.className="option"+(answers[current]===i?" selected":"");b.textContent=String.fromCharCode(65+i)+".  "+opt;b.onclick=()=>{answers[current]=i;renderQuestion()};$("options").appendChild(b)});
+ $("backBtn").style.visibility=current===0?"hidden":"visible";$("nextBtn").textContent=current===questions.length-1?"See my results →":"Next →";$("nextBtn").disabled=answers[current]===null;
+}
+function finish(){
+ const totals={Vocabulary:{correct:0,total:0},Grammar:{correct:0,total:0},Reading:{correct:0,total:0}};
+ questions.forEach((q,i)=>{totals[q.skill].total++;if(answers[i]===q.a)totals[q.skill].correct++});
+ const correct=questions.filter((q,i)=>answers[i]===q.a).length,score=Math.round(correct/questions.length*100);
+ $("overallScore").textContent=score+"%";
+ let title,copy;if(score>=80){title="You're looking well prepared!";copy="You showed a strong foundation across this short A1 check. Keep practising and try a full mock exam before booking."}else if(score>=60){title="You're getting close.";copy="You have a good start, with a few areas to strengthen. Focus on the practice suggestions below before booking."}else{title="A little more practice will help.";copy="This check highlights some foundations worth revisiting. Build confidence in the suggested areas and try again."}
+ $("resultTitle").textContent=title;$("resultCopy").textContent=`You answered ${correct} out of ${questions.length} questions correctly. ${copy}`;
+ $("skillScores").innerHTML="";Object.entries(totals).forEach(([name,v])=>{const pct=Math.round(v.correct/v.total*100);const row=document.createElement("div");row.className="skillrow";row.innerHTML=`<strong>${name}</strong><div class="skillbar"><i style="width:${pct}%"></i></div><strong>${pct}%</strong>`;$("skillScores").appendChild(row)});
+ const weakest=Object.entries(totals).sort((a,b)=>(a[1].correct/a[1].total)-(b[1].correct/b[1].total));
+ $("recommendations").innerHTML="";weakest.slice(0,2).forEach(([name,v])=>{const pct=Math.round(v.correct/v.total*100);const box=document.createElement("div");box.className="recommend";const strong=document.createElement("strong");strong.textContent=`${name} · ${pct}%`;box.appendChild(strong);const p=document.createElement("div");p.textContent=tips[name][0]+" "+tips[name][1];box.appendChild(p);$("recommendations").appendChild(box)});
+ show("results");
+}
+$("startBtn").onclick=()=>{current=0;answers=Array(questions.length).fill(null);show("quiz");renderQuestion()};
+$("backBtn").onclick=()=>{if(current>0){current--;renderQuestion()}};
+$("nextBtn").onclick=()=>{if(answers[current]===null)return;if(current<questions.length-1){current++;renderQuestion()}else finish()};
+$("retryBtn").onclick=()=>{current=0;answers=Array(questions.length).fill(null);show("quiz");renderQuestion()};
+$("printBtn").onclick=()=>window.print();
+</script>
+</body>
+</html>
